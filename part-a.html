@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width", initial-scale="1.0">
+            <title>Lab 2.2 Part A</title>
+
+</head>
+
+<body>
+
+    <h1>Part A: HTML Tables</h1>
+
+    <h2>1. Simple Table</h2>
+    <table border="1">
+        <tr>
+            <td>Nasi Ayam</td>
+            <td>RM 8.00</td>
+        </tr>
+        <tr>
+            <td>Nasi Goreng</td>
+            <td>RM 6.50</td>
+        </tr>
+    </table>
+
+    <h2>2. Table with Header</h2>
+    <table border="1">
+        <caption>Welcome to My Shop</caption>
+        <tr>
+            <th>Menu</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Nasi Goreng</td>
+            <td>RM 6.50</td>
+        </tr>
+    </table>
+
+    <h2>3. Colspan</h2>
+    <table border="1">
+        <caption>Welcome to My Shop</caption>
+        <tr>
+            <th>Menu</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Nasi Ayam</td>
+            <td>RM 8.00</td>
+        </tr>
+        <tr>
+            <td>Nasi Goreng</td>
+            <td>RM 6.50</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                Ayam Percik Sold Out
+            </td>
+        </tr>
+    </table>
+
+    <h2>4. Rowspan</h2>
+    <table border="1">
+        <tr>
+            <th>Menu</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Nasi Ayam</td>
+            <td>RM 8.00</td>
+        </tr>
+        <tr>
+            <td>Nasi Goreng</td>
+            <td>RM 6.50</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                Ayam Percik Sold Out
+            </td>
+        </tr>
+        <tr>
+            <td>Ayam Goreng</td>
+            <td rowspan="2">RM 2.00</td>
+        </tr>
+        <tr>
+            <td>Telur Mata</td>
+        </tr>
+    </table>
+
+    <h2>5. Insert Picture</h2>
+    <table border="1">
+        <tr>
+            <th>Menu</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Nasi Ayam</td>
+            <td>RM 8.00</td>
+        </tr>
+        <tr>
+            <td>Nasi Goreng</td>
+            <td>RM 6.50</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                Ayam Percik Sold Out
+            </td>
+        </tr>
+        <tr>
+            <td>Ayam Goreng</td>
+            <td rowspan="2">RM 2.00</td>
+        </tr>
+        <tr>
+            <td>Telur Mata</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <img src="images/thankyou.jpg"
+                     alt="Thank You"
+                     width="150">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
